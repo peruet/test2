@@ -29,7 +29,7 @@ ICD::Comment => "Процессорный модуль с мезонином CAN
 ICD::db_Table => "t_Blocks";
 ICS::aa => "qw";
 ICD::MinDuration => 0;
-ICD::Modifications => "ИМА git hub 3";
+ICD::Modifications => "ИМА git hub 4";
 ICD::tr => "tr";
 END Block_PM_1;
 
