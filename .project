@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>test2</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>ru.ispras.masiw.plugin.workspace.AADLInstanceBuilder</name>
+			<arguments>
+				<dictionary>
+					<key>InstanceBuilder</key>
+					<value>ru.ispras.masiw.plugin.aadl.instance.MasiwInstanceBuilder</value>
+				</dictionary>
+				<dictionary>
+					<key>SystemReference</key>
+					<value>Root Systems</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>ru.ispras.masiw.project.nature</nature>
+	</natures>
+</projectDescription>

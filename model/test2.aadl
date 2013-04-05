@@ -1,0 +1,49 @@
+PACKAGE PM_1_17
+PUBLIC
+
+SYSTEM IMPLEMENTATION Block_PM_1.Impl
+SUBCOMPONENTS
+Processor_PM_1 : PROCESSOR Processor_PM_1;
+PROPERTIES
+ICD::db_Identifier => 17;
+ICD::ComponentCategory => "Blocks";
+ICD::db_Name => "PM-1";
+ICD::Comment => "Процессорный модуль с мезонином CAN ";
+ICD::db_Table => "t_Blocks";
+ICD::MinDuration => 0;
+ICD::Modifications => "ИМА git hub b";
+END Block_PM_1.Impl;
+
+
+PRIVATE
+
+SYSTEM Block_PM_1
+--FEATURES
+--PM_1_OUT : PORT GROUP;
+--PM_1_IN : PORT GROUP;
+PROPERTIES
+ICD::db_Identifier => 17;
+ICD::ComponentCategory => "Blocks";
+ICD::db_Name => "PM-1";
+ICD::Comment => "Процессорный модуль с мезонином CAN ";
+ICD::db_Table => "t_Blocks";
+ICS::aa => "qw";
+ICD::MinDuration => 0;
+ICD::Modifications => "ИМА git hub 2";
+ICD::tr => "tr";
+END Block_PM_1;
+
+PROCESSOR Processor_PM_1
+PROPERTIES
+ICD::db_Identifier => 17;
+ICD::ComponentCategory => "Blocks";
+ICD::db_Name => "PM-1";
+Clock_Period => 250;
+ICD::Comment => "Процессорный модуль с мезонином CAN ";
+ICD::db_Table => "t_Blocks";
+ICD::MinDuration => 0;
+ICD::Modifications => "ИМА";
+END Processor_PM_1;
+
+
+END PM_1_17;
