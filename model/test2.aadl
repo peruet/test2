@@ -11,7 +11,7 @@ ICD::db_Name => "PM-1";
 ICD::Comment => "Процессорный модуль с мезонином CAN ";
 ICD::db_Table => "t_Blocks";
 ICD::MinDuration => 0;
-ICD::Modifications => "ИМА git hub b";
+ICD::Modifications => "ИМА git hub c";
 END Block_PM_1.Impl;
 
 
